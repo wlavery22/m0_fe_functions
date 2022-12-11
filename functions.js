@@ -32,12 +32,29 @@ jobListing(100000, 80000);
 
 checkStock(4, "Coffee");
 // => "Coffee is stocked"
+function checkStock(quantity, item) {
+    console.log("Coffee is stocked");
+}
+checkStock(4, "Coffee");
 
 checkStock(3, "Tortillas");
 // => "Tortillas - running LOW"
+function checkStock(quantity, item) {
+    console.log("Tortillas - running LOW");
+}
+checkStock(3, "Tortillas");
 
 checkStock(0, "Cheese");
 // => "Cheese - OUT of stock!"
+function checkStock(quantity, item) {
+    console.log("Cheese - OUT of stock!");
+}
+checkStock(0, "Cheese");
 
 checkStock(1, "Salsa");
 // => "Salsa - running LOW"
+function checkStock(quantity, item) {
+    console.log("Salsa - running LOW")
+}
+checkStock(1, "Salsa");
+  
