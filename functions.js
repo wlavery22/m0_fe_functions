@@ -29,14 +29,14 @@ console.log(`${companyName} offers job with salary range of ${salaryRange}`);
 // 4: Write a function that satifies the following interaction pattern:
 
 function checkStock(quantity, item) {
-    if (quantity >= 4) {
+if (quantity >= 4) {
     console.log(`${item} is stocked`)
-    } else if (quantity <= 0) {
+} else if (quantity <= 0) {
     console.log(`${item} - OUT of stock!`)
-    } else {
+} else {
     console.log(`${item} - running LOW`)
-    }
-    }
+}
+}
 
     checkStock(4, "Coffee");
     // => "Coffee is stocked"
