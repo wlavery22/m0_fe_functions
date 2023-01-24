@@ -5,6 +5,8 @@ function printGreeting() {
 printGreeting();
 printGreeting();
 printGreeting();
+// OR
+for (var i = 1; i < 4; i++) printGreeting(i); 
 
 // 2: Write a function that accepts 1 argument. The function should console.log a sentence that interpolates the data passed in.
 function greeting(name) {
