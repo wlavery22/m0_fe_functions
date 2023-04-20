@@ -23,7 +23,7 @@ function jobListing(companyName, maxSalary, minSalary) {
     var sum = maxSalary - minSalary;
     return sum;
 }
-var companyName = "Initech";
+var companyName = "Intech";
 var maxSalary = 100000;
 var minSalary = 80000;
 var salaryRange = maxSalary - minSalary;
