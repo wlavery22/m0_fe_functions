@@ -13,7 +13,7 @@ function nameQuestion() {
 }
 
 nameQuestion()
-// I added a semicolon at the end of the 2nd line, or line 12. It works either way in replit, but it's a best practice.
+// I added a semicolon at the end of the 2nd line, or line 12. It works either way in replit, but it's a best practice to do it.
 
 // EX 2:
 function addThreeNums(first, second, third) {
