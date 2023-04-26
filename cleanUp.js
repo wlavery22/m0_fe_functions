@@ -39,13 +39,11 @@ makeFreshPesto();
 // the curly brackets. 
 
 //  EX 4:
-function average(num1, num2) 
-  {
-var sum = num1 + num2;
-    var avg = sum / 2;
-
+function average(num1, num2) {
+  var sum = num1 + num2;
+  var avg = sum / 2;
   console.log(`the average is: ${avg}.`);
-  }
+}
   console.log(average(10, 8));
   // There was a semicolon missing from the last line. Just before that, the period was after the last backtick and it should've been before.
-  // I added line 49 so that I could test it in replit and it worked.
+  // I added line 47 so that I could test it in replit and it worked.
