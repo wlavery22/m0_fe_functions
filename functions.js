@@ -19,16 +19,15 @@ greeting("Tito");
 // 3: Write a function that has 3 parameters: a string and two numbers. The String will be the name of a company, and the numbers will 
 // represent the minimum and maximum of a pay range for a posted job. The function should print out a sentence that includes the name of the 
 // company and the range itself (if the numbers passed in are 90000 and 110000, the pay range is 20000).
-function jobListing(companyName, maxSalary, minSalary) {
-    var sum = maxSalary - minSalary;
-    return sum;
-}
-var companyName = "Intech";
-var maxSalary = 100000;
-var minSalary = 80000;
-var salaryRange = maxSalary - minSalary;
 
-console.log(`${companyName} offers job with salary range of ${salaryRange}`);
+function jobListing(companyName, maxSalary, minSalary) {
+  var companyName = "Intech";
+  var maxSalary = 100000;
+  var minSalary = 80000;
+  var salaryRange = maxSalary - minSalary;
+  console.log(`${companyName} offers job with salary range of $${salaryRange}`);
+}
+jobListing("Intech", 100000, 80000);
 
 // 4: Write a function that satifies the following interaction pattern:
 
